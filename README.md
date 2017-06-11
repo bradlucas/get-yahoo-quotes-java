@@ -2,6 +2,10 @@
 
 A Java class to download Yahoo quotes which works with the new cookie authorized page.
 
+This repo has an associated blog post available here:
+
+[http://blog.bradlucas.com/posts/2017-06-04-yahoo-finance-quote-download-java/](http://blog.bradlucas.com/posts/2017-06-04-yahoo-finance-quote-download-java/)
+
 ## Setup
 
 This project requires Apache Commons HttpClient library and the Commons Lang library.
