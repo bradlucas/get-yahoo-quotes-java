@@ -115,7 +115,9 @@ public class GetYahooQuotes {
         HttpGet request = new HttpGet(url);
         System.out.println(url);
 
-        request.addHeader("User-Agent", "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.10 (maverick) Firefox/3.6.13");
+        // request.addHeader("User-Agent", "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.10 (maverick) Firefox/3.6.13");
+        request.addHeader("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:74.0) Gecko/20100101 Firefox/74.0");
+
         try {
             HttpResponse response = client.execute(request, context);
             System.out.println("Response Code : " + response.getStatusLine().getStatusCode());
